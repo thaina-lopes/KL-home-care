@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --branco: #f1fff1;
+  --verde: #4b834c;
+  --bege: #e7efe1;
+}
+
+body {
+  font-family: "Open Sans";
+}

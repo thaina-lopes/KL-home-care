@@ -1,0 +1,15 @@
+.container_banner {
+  display: flex;
+  background-size: 100%;
+  background-image: url("./img/img-banner.png");
+  align-items: center;
+  text-align: center;
+  height: 750px;
+  justify-content: center;
+}
+
+.logo-banner {
+  height: 450px;
+  object-fit: cover;
+  text-align: center;
+}

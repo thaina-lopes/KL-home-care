@@ -1,0 +1,57 @@
+.cabecalho {
+  background-color: var(--verde);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 70px;
+}
+
+nav {
+  color: var(--branco);
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: var(--branco);
+  font-size: 22px;
+  margin: 0 30px;
+}
+
+.whats {
+  text-decoration: none;
+  color: var(--branco);
+  background-color: #25d366;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 99;
+  bottom: 20px;
+  right: 20px;
+}
+.balao {
+  visibility: hidden;
+  width: 100px;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  left: -85%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 16px;
+}
+
+.whats:hover .balao {
+  visibility: visible;
+  opacity: 0.8;
+}
