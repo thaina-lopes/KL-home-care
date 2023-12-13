@@ -2,14 +2,43 @@
   display: flex;
   background-size: 100%;
   background-image: url("./img/img-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   align-items: center;
   text-align: center;
-  height: 750px;
+  height: 700px;
   justify-content: center;
 }
 
 .logo-banner {
-  height: 450px;
+  height: 420px;
   object-fit: cover;
   text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .container_banner {
+    height: 600px;
+  }
+  .logo-banner {
+    height: 330px;
+  }
+}
+
+@media (max-width: 760px) {
+  .container_banner {
+    height: 500px;
+  }
+  .logo-banner {
+    height: 250px;
+  }
+}
+
+@media (max-width: 560px) {
+  .container_banner {
+    height: 300px;
+  }
+  .logo-banner {
+    height: 150px;
+  }
 }
