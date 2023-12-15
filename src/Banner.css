@@ -42,3 +42,9 @@
     height: 150px;
   }
 }
+
+@media (max-width: 400px) {
+  .logo-banner {
+    height: 120px;
+  }
+}
