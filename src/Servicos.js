@@ -4,7 +4,7 @@ import logokl from "./img/img_especialiades2.png";
 
 export default function Servicos() {
   return (
-    <section className="especialiades">
+    <section className="especialiades" id="servicos">
       <div className="especialiades-imagens">
         <img
           src={time}
@@ -23,7 +23,8 @@ export default function Servicos() {
         </a>
         <ul className="especialidades-lista">
           <li>Enfermeira</li>
-          <li>Técnica em Enfermagem</li>
+          <li className="tec-enfermagem">Técnica em Enfermagem</li>
+          <li className="tec-enfermagem-mobile">Téc. Enfermagem</li>
           <li>Psicóloga</li>
           <li>Fonoaudióloga</li>
           <li>Nutricionista</li>
