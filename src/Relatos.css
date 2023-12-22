@@ -1,11 +1,11 @@
 .relatos {
   background-color: var(--bege);
+  padding: 50px;
 }
 .relatos-titulo {
   color: var(--verde);
   font-family: "Anybody", sans-serif;
   font-size: 45px;
-  padding-top: 50px;
   max-width: 1024px;
   margin: 0 auto;
 }
@@ -22,4 +22,41 @@
 .relato-02 {
   width: 300px;
   margin-top: 30px;
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 780px) {
+  .relatos-container {
+    max-width: 560px;
+  }
+  .relatos-titulo {
+    font-size: 35px;
+  }
+  .relato-01 {
+    width: 270px;
+    margin-top: 50px;
+  }
+  .relato-02 {
+    width: 250px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 560px) {
+  .relatos-container {
+    max-width: 330px;
+  }
+  .relatos-titulo {
+    font-size: 28px;
+  }
+  .relato-01 {
+    width: 200px;
+    margin-top: 50px;
+  }
+  .relato-02 {
+    width: 200px;
+    margin-top: 30px;
+  }
 }

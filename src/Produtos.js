@@ -13,8 +13,7 @@ export default function Produtos() {
           <ul className="produtos-lista">
             <li>Álcool</li>
             <li>Luvas</li>
-            <li>Gaze estéreo e não estério</li>
-            <li>Álcool</li>
+            <li className="gaze">Gaze estéreo e não estéreo</li>
             <li>Álcool</li>
             <li>Álcool</li>
           </ul>
