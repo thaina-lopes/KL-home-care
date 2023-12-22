@@ -1,0 +1,25 @@
+.relatos {
+  background-color: var(--bege);
+}
+.relatos-titulo {
+  color: var(--verde);
+  font-family: "Anybody", sans-serif;
+  font-size: 45px;
+  padding-top: 50px;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.relatos-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.relato-01 {
+  width: 350px;
+  margin-top: 50px;
+}
+.relato-02 {
+  width: 300px;
+  margin-top: 30px;
+}
