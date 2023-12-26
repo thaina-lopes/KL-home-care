@@ -1,0 +1,15 @@
+.rodape {
+  background-color: var(--verde);
+}
+.icone {
+  color: #fff;
+}
+.assinatura {
+  color: #fff;
+  font-size: 14px;
+}
+.mive {
+  color: #fff;
+  font-size: 14px;
+  margin: 0 5px;
+}

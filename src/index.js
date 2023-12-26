@@ -7,6 +7,7 @@ import SobreNos from "./SobreNos";
 import Servicos from "./Servicos";
 import Produtos from "./Produtos";
 import Relatos from "./Relatos";
+import Rodape from "./Rodape";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -17,5 +18,6 @@ root.render(
     <Servicos />
     <Produtos />
     <Relatos />
+    <Rodape />
   </React.StrictMode>
 );
