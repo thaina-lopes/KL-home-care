@@ -21,10 +21,10 @@
   margin-left: -40px;
 }
 .especialiades-descricao {
-  width: 420px;
+  width: 440px;
   text-align: center;
   justify-self: center;
-  margin-left: -125px;
+  margin-left: -105px;
 }
 .botao_contato {
   background-color: var(--verde);
@@ -39,18 +39,23 @@
   border: 6px solid rgba(75, 131, 76, 0.5);
   border-radius: 15px;
   background-color: rgba(241, 255, 241, 0.5);
-  padding: 50px 0;
+  padding: 50px 0 50px 40px;
   margin-top: 50px;
   line-height: 1.5;
   text-align: left;
 }
-li {
-  margin-left: 40px;
+.tec-enfermagem {
+  margin-left: 0px;
+  width: 400px;
 }
-li::marker {
+.li-servicos {
+  margin-left: 0px;
+  width: 400px;
+}
+.li-servicos::marker {
   font-size: 12px;
 }
-li::before {
+.li-servicos::before {
   content: "•";
   margin-right: 10px;
 }
@@ -77,18 +82,23 @@ li::before {
     font-size: 24px;
   }
   .especialiades-descricao {
-    width: 360px;
+    width: 400px;
     margin-left: -100px;
   }
   .especialidades-lista {
     font-size: 24px;
-    padding: 30px 0;
+    padding: 30px 0 30px 50px;
     margin-top: 40px;
     line-height: 1.5;
     border: 4px solid rgba(75, 131, 76, 0.5);
   }
-  li {
-    margin-left: 35px;
+  .tec-enfermagem {
+    margin-left: 0px;
+    width: 400px;
+  }
+  .li-servicos {
+    margin-left: 0px;
+    width: 400px;
   }
 }
 @media (max-width: 780px) {
@@ -115,13 +125,24 @@ li::before {
   }
   .especialidades-lista {
     font-size: 19px;
-    padding: 25px 0;
+    padding: 25px 0 25px 25px;
     margin-top: 30px;
     line-height: 1.5;
     border: 4px solid rgba(75, 131, 76, 0.5);
   }
-  li {
-    margin-left: 24px;
+  .li-servicos {
+    margin-left: 0px;
+    width: auto;
+  }
+  .tec-enfermagem {
+    margin-left: 0px;
+    width: auto;
+  }
+  .li-servicos::before {
+    margin-right: 5px;
+  }
+  .tec-enfermagem::before {
+    margin-right: 5px;
   }
 }
 
@@ -141,7 +162,7 @@ li::before {
     margin-left: -40px;
   }
   .especialiades-descricao {
-    width: 155px;
+    width: 160px;
     text-align: center;
     justify-self: center;
     margin-left: -40px;
@@ -160,14 +181,19 @@ li::before {
     margin-top: 20px;
     line-height: 1.3;
   }
-  li::before {
+  .li-servicos::before {
     margin-right: 5px;
   }
-  li {
+  .li-servicos {
     margin-left: 10px;
   }
   .tec-enfermagem-mobile {
-    display: flex;
+    display: inline;
+    margin-left: 10px;
+    width: auto;
+  }
+  .tec-enfermagem-mobile::before {
+    margin-right: 5px;
   }
   .tec-enfermagem {
     display: none;

@@ -22,16 +22,16 @@ export default function Servicos() {
           Contate-nos
         </a>
         <ul className="especialidades-lista">
-          <li>Enfermeira</li>
+          <li className="li-servicos">Enfermeira</li>
           <li className="tec-enfermagem">Técnica em Enfermagem</li>
           <li className="tec-enfermagem-mobile">Téc. Enfermagem</li>
-          <li>Psicóloga</li>
-          <li>Fonoaudióloga</li>
-          <li>Nutricionista</li>
-          <li>Fisioterapeuta</li>
-          <li>Cuidadora</li>
-          <li>Cabelereira</li>
-          <li>Serviços Gerais</li>
+          <li className="li-servicos">Psicóloga</li>
+          <li className="li-servicos">Fonoaudióloga</li>
+          <li className="li-servicos">Nutricionista</li>
+          <li className="li-servicos">Fisioterapeuta</li>
+          <li className="li-servicos">Cuidadora</li>
+          <li className="li-servicos">Cabelereira</li>
+          <li className="li-servicos">Serviços Gerais</li>
         </ul>
       </div>
     </section>

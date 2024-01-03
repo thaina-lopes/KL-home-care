@@ -1,5 +1,5 @@
 import "./Produtos.css";
-import epi from "./img/img-epi.png";
+import epi from "./img/img-epi2.png";
 import logo from "./img/logo.png";
 
 export default function Produtos() {

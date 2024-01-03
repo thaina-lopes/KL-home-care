@@ -83,7 +83,7 @@ li::before {
   }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 790px) {
   .produtos {
     padding: 50px 30px;
   }
