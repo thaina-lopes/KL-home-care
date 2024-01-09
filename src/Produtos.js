@@ -13,9 +13,13 @@ export default function Produtos() {
           <ul className="produtos-lista">
             <li>Álcool</li>
             <li>Luvas</li>
+            <li>Toucas</li>
+            <li>Propé</li>
+            <li>Agulhas</li>
+            <li>Seringas</li>
             <li className="gaze">Gaze estéreo e não estéreo</li>
-            <li>Álcool</li>
-            <li>Álcool</li>
+            <li className="gaze">Papel grau cirúrgico</li>
+            <li className="gaze">Fita para autoclave</li>
           </ul>
           <a
             className="botao_comprar"
