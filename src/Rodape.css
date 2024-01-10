@@ -1,15 +1,34 @@
 .rodape {
   background-color: var(--verde);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #ffffff2d;
 }
 .icone {
-  color: #fff;
+  color: var(--branco);
 }
 .assinatura {
-  color: #fff;
-  font-size: 14px;
+  color: var(--branco);
+  font-size: 16px;
+  font-family: Calmius;
+  margin-left: 3px;
 }
-.mive {
-  color: #fff;
-  font-size: 14px;
+.assinatura::first-letter {
+  font-family: "Yeseva One", serif;
+  font-size: 20px;
+}
+.rodape-mive {
+  color: var(--branco);
+  font-size: 16px;
   margin: 0 5px;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 580px) {
+  .assinatura {
+    font-size: 14px;
+  }
 }

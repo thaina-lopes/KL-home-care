@@ -45,6 +45,9 @@
   flex: 1;
   padding-right: 30px;
 }
+.mive {
+  margin: 0 5px 0 0;
+}
 
 @media (max-width: 780px) {
   .contato-titulo {
