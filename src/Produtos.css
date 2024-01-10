@@ -13,19 +13,19 @@
   text-align: left;
 }
 .produtos-titulo {
-  color: #fff;
+  color: var(--branco);
   font-family: "Anybody", sans-serif;
   font-size: 45px;
   line-height: 1.2;
 }
 .produtos-subtitulo {
-  color: #fff;
+  color: var(--branco);
   font-size: 20px;
 }
 .produtos-lista {
   width: 350px;
   list-style: none;
-  color: #fff;
+  color: var(--branco);
   line-height: 1.8;
   columns: 2;
   margin-top: 30px;
@@ -35,14 +35,18 @@
 .gaze {
   white-space: nowrap;
 }
-li {
+.produtos-itens {
   width: 100px;
   margin-left: 0px;
 }
-li::marker {
+.produtos-itens::marker {
   font-size: 12px;
 }
-li::before {
+.produtos-itens::before {
+  content: "•";
+  margin-right: 10px;
+}
+.gaze::before {
   content: "•";
   margin-right: 10px;
 }

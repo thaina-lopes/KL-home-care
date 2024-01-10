@@ -11,12 +11,12 @@ export default function Produtos() {
           <h2 className="produtos-titulo">Conforto</h2>
           <p className="produtos-subtitulo">Trabalhamos com uma linha de EPI</p>
           <ul className="produtos-lista">
-            <li>Álcool</li>
-            <li>Luvas</li>
-            <li>Toucas</li>
-            <li>Propé</li>
-            <li>Agulhas</li>
-            <li>Seringas</li>
+            <li className="produtos-itens">Álcool</li>
+            <li className="produtos-itens">Luvas</li>
+            <li className="produtos-itens">Toucas</li>
+            <li className="produtos-itens">Propé</li>
+            <li className="produtos-itens">Agulhas</li>
+            <li className="produtos-itens">Seringas</li>
             <li className="gaze">Gaze estéreo e não estéreo</li>
             <li className="gaze">Papel grau cirúrgico</li>
             <li className="gaze">Fita para autoclave</li>

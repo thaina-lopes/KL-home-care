@@ -1,0 +1,91 @@
+.img-contato {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+.contato {
+  background-color: var(--verde);
+}
+.contato-titulo {
+  font-size: 45px;
+  color: var(--branco);
+  font-family: "Anybody", sans-serif;
+  padding: 50px 50px 0px 50px;
+}
+.contato-texto {
+  font-size: 20px;
+  color: var(--branco);
+  margin-top: 20px;
+  font-weight: 500;
+}
+.contato-telefone {
+  font-size: 16px;
+  color: var(--branco);
+  margin: 0;
+}
+.contato-email {
+  font-size: 16px;
+  color: var(--branco);
+}
+.contato-instagram {
+  font-size: 16px;
+  color: var(--branco);
+  margin: 0;
+}
+.contato-insta {
+  display: flex;
+  align-items: center;
+}
+.contatos {
+  display: flex;
+  padding: 30px 50px 50px 50px;
+}
+.contato-info {
+  flex: 1;
+  padding-right: 30px;
+}
+
+@media (max-width: 780px) {
+  .contato-titulo {
+    font-size: 30px;
+  }
+  .contato-texto {
+    font-size: 18px;
+  }
+  .contato-telefone {
+    font-size: 14px;
+  }
+  .contato-email {
+    font-size: 14px;
+  }
+  .contato-instagram {
+    font-size: 14px;
+  }
+  .contatos {
+    padding: 30px 10px 50px 30px;
+  }
+}
+
+@media (max-width: 580px) {
+  .contato-titulo {
+    font-size: 28px;
+    text-align: center;
+  }
+  .contato-texto {
+    font-size: 16px;
+  }
+  .contatos {
+    display: block;
+    padding: 30px;
+  }
+  .contato-info {
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 330px) {
+  .contatos {
+    padding: 20px;
+  }
+}
