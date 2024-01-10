@@ -62,6 +62,10 @@
 .tec-enfermagem-mobile {
   display: none;
 }
+.tec-enfermagem::before {
+  content: "•";
+  margin-right: 10px;
+}
 
 @media (max-width: 1024px) {
   .especialiades {
@@ -185,15 +189,16 @@
     margin-right: 5px;
   }
   .li-servicos {
-    margin-left: 10px;
+    margin-left: 13px;
   }
   .tec-enfermagem-mobile {
     display: inline;
-    margin-left: 10px;
+    margin-left: 13px;
     width: auto;
   }
   .tec-enfermagem-mobile::before {
     margin-right: 5px;
+    content: "•";
   }
   .tec-enfermagem {
     display: none;

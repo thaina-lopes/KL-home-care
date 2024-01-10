@@ -74,6 +74,8 @@ a {
 @media (max-width: 560px) {
   .cabecalho {
     height: 50px;
+    align-items: center;
+    justify-content: center;
   }
   a {
     font-size: 15px;

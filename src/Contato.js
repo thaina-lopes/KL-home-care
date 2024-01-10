@@ -1,6 +1,7 @@
 import "./Contato.css";
 import imgContato from "./img/img-contato2.png";
 import { FaInstagram } from "react-icons/fa";
+import { MdOutlineEmail } from "react-icons/md";
 
 export default function Contato() {
   return (
@@ -33,10 +34,23 @@ export default function Contato() {
           </a>
         </div>
         <div className="contato-info">
-          <p className="contato-texto">E-mail</p>
-          <p className="contato-email">KS.ENFERMAGEM.HOMECARE@GMAIL.COM</p>
+          <div className="contato-insta">
+            <a
+              href="mailto:KS.ENFERMAGEM.HOMECARE@GMAIL.COM"
+              target="_blank"
+              className="mive"
+            >
+              <MdOutlineEmail size={30} className="icone" />
+            </a>
+            <a
+              className="contato-email"
+              href="mailto:KS.ENFERMAGEM.HOMECARE@GMAIL.COM"
+              target="_blank"
+            >
+              KS.ENFERMAGEM.HOMECARE@GMAIL.COM
+            </a>
+          </div>
 
-          <p className="contato-texto">Instagram</p>
           <div className="contato-insta">
             <a
               href="https://www.instagram.com/homecarekl/"

@@ -8,9 +8,10 @@ export default function SobreNos() {
       <div className="container_sobreNos">
         <div className="container_paragrafos">
           <p className="paragrafo_sobreNos">
-            Atendimento especializado domiciliar e hospitalar para pacientes e
-            suas famílias com doenças em todos os estágios. Desde o nascimento
-            até o envelhecer, 24 horas por dia.
+            Atendimento especializado <strong>domiciliar</strong> e{" "}
+            <strong>hospitalar</strong> para pacientes e suas famílias com
+            doenças em todos os estágios. Desde o nascimento até o envelhecer,{" "}
+            <strong>24 horas</strong> por dia.
           </p>
           <p className="paragrafo_sobreNos">
             Contamos com uma equipe multidisciplinar, assim oferecendo
@@ -22,7 +23,7 @@ export default function SobreNos() {
             família merece o nosso melhor.
           </p>
           <p className="paragrafo_sobreNos">
-            KL Home Care - Cuidado com responsabilidade e afeto.
+            <b>KL Home Care</b> - Cuidado com responsabilidade e afeto.
           </p>
         </div>
         <img src={sobrenos} alt="mão segurando um coração" className="img" />

@@ -27,6 +27,7 @@
 .contato-email {
   font-size: 16px;
   color: var(--branco);
+  margin: 0;
 }
 .contato-instagram {
   font-size: 16px;
@@ -36,6 +37,7 @@
 .contato-insta {
   display: flex;
   align-items: center;
+  margin-top: 20px;
 }
 .contatos {
   display: flex;
@@ -80,15 +82,23 @@
   }
   .contatos {
     display: block;
-    padding: 30px;
+    padding: 20px;
+    padding-bottom: 50px;
   }
   .contato-info {
     padding-right: 0px;
   }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 350px) {
   .contatos {
-    padding: 20px;
+    padding: 10px;
+    padding-bottom: 50px;
+  }
+  .contato-texto {
+    font-size: 14px;
+  }
+  .contato-email {
+    font-size: 13px;
   }
 }
