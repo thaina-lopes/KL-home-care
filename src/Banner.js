@@ -1,5 +1,5 @@
 import "./Banner.css";
-import logo from "./img/logo.png";
+import logo from "./img/logo.webp";
 
 export default function Banner() {
   return (

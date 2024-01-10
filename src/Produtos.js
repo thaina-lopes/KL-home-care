@@ -1,6 +1,6 @@
 import "./Produtos.css";
-import epi from "./img/img-epi2.png";
-import logo from "./img/logo.png";
+import epi from "./img/img-epi2.webp";
+import logo from "./img/logo.webp";
 
 export default function Produtos() {
   return (

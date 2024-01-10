@@ -1,6 +1,6 @@
 import "./Servicos.css";
 import time from "./img/img_especialiaddes.jpg";
-import logokl from "./img/img_especialiades2.png";
+import logokl from "./img/img_especialiades2.webp";
 
 export default function Servicos() {
   return (
