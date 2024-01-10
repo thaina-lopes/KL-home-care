@@ -1,5 +1,5 @@
 import "./Contato.css";
-import imgContato from "./img/img-contato2.png";
+import imgContato from "./img/img-contato2.jpg";
 import { FaInstagram } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 
