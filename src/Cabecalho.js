@@ -12,7 +12,7 @@ export default function Cabecalho() {
           <a href="#contato">Contato</a>
           <a
             className="whats"
-            href="https://api.whatsapp.com/send?phone=5551997171340"
+            href="https://api.whatsapp.com/send?phone=5551999376875"
             target="_blank"
           >
             <FaWhatsapp size={35} />

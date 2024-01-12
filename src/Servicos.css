@@ -28,10 +28,19 @@
 }
 .botao_contato {
   background-color: var(--verde);
-  padding: 8px 50px;
+  padding: 8px 45px;
   border-radius: 15px;
   font-size: 25px;
+  cursor: pointer;
+  transition: 0.5s;
+  border: 3px solid transparent;
 }
+.botao_contato:hover {
+  background-color: transparent;
+  border-color: var(--verde);
+  color: var(--verde);
+}
+
 .especialidades-lista {
   list-style: none;
   color: var(--verde);

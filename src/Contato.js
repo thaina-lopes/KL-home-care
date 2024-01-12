@@ -30,7 +30,7 @@ export default function Contato() {
             target="_blank"
           >
             {" "}
-            (51) 9 9973-6875
+            (51) 9 9937-6875
           </a>
         </div>
         <div className="contato-info">

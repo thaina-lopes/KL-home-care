@@ -16,7 +16,7 @@ export default function Servicos() {
       <div className="especialiades-descricao">
         <a
           className="botao_contato"
-          href="https://api.whatsapp.com/send?phone=5551997171340"
+          href="https://api.whatsapp.com/send?phone=5551999376875"
           target="_blank"
         >
           Contate-nos
