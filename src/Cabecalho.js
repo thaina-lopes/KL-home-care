@@ -6,10 +6,18 @@ export default function Cabecalho() {
     <header>
       <div className="cabecalho">
         <nav>
-          <a href="#sobrenos">Sobre nós</a>
-          <a href="#servicos">Serviços</a>
-          <a href="#produtos">Produtos</a>
-          <a href="#contato">Contato</a>
+          <a className="menu" href="#sobrenos">
+            Sobre nós
+          </a>
+          <a className="menu" href="#servicos">
+            Serviços
+          </a>
+          <a className="menu" href="#produtos">
+            Produtos
+          </a>
+          <a className="menu" href="#contato">
+            Contato
+          </a>
           <a
             className="whats"
             href="https://api.whatsapp.com/send?phone=5551999376875"

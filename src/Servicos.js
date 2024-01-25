@@ -1,19 +1,22 @@
 import "./Servicos.css";
-import time from "./img/img_especialiaddes.jpg";
-import logokl from "./img/img_especialiades2.webp";
 
 export default function Servicos() {
   return (
     <section className="especialiades" id="servicos">
-      <div className="especialiades-imagens">
-        <img
-          src={time}
-          alt="Profissionais da saúde dando as mãos"
-          className="img-profissionais"
-        />
-        <img src={logokl} alt="Logo da KL-Home Care" className="img-logo" />
-      </div>
-      <div className="especialiades-descricao">
+      <div className="especialidades-texto">
+        <p className="paragrafo-texto">
+          Queremos lhe fazer um convite, agende uma visita de avaliação e
+          conheça nosso trabalho e todo apoio que nossa equipe pode proporcionar
+          a você e seu familiar.
+        </p>
+        <p className="paragrafo-texto">
+          Nessa conversa iremos te apresentar os conhecimentos indispensáveis
+          para um cuidado realizado por profissionais capacitados em cuidado
+          domiciliar.
+        </p>
+        <p className="paragrafo-texto">
+          O atendimento domiciliar garante as famílias qualidade de vida.
+        </p>
         <a
           className="botao_contato"
           href="https://api.whatsapp.com/send?phone=5551999376875"
@@ -21,6 +24,8 @@ export default function Servicos() {
         >
           Contate-nos
         </a>
+      </div>
+      <div className="especialiades-descricao">
         <ul className="especialidades-lista">
           <li className="li-servicos">Enfermeira</li>
           <li className="tec-enfermagem">Técnica em Enfermagem</li>

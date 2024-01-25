@@ -13,7 +13,7 @@ nav {
   align-items: center;
 }
 
-a {
+.menu {
   text-decoration: none;
   color: var(--branco);
   font-size: 22px;

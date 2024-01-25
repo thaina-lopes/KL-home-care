@@ -60,6 +60,7 @@
   cursor: pointer;
   transition: 0.5s;
   border: 2px solid transparent;
+  text-decoration: none;
 }
 .botao_comprar:hover {
   background-color: transparent;
