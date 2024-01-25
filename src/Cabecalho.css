@@ -57,13 +57,13 @@ nav {
 }
 
 @media (max-width: 1024px) {
-  a {
+  .menu {
     font-size: 20px;
   }
 }
 
 @media (max-width: 760px) {
-  a {
+  .menu {
     margin: 0 15px;
   }
   nav {
@@ -77,7 +77,7 @@ nav {
     align-items: center;
     justify-content: center;
   }
-  a {
+  .menu {
     font-size: 15px;
     margin: 0 8px;
   }
