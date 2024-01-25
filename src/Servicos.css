@@ -172,6 +172,7 @@
     justify-self: center;
     align-items: center;
     max-width: 350px;
+    margin: -50px auto 45px auto;
   }
   .especialidades-texto {
     margin-right: 0px;
