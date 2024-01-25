@@ -20,16 +20,19 @@
   font-weight: 500;
 }
 .contato-telefone {
+  text-decoration: none;
   font-size: 16px;
   color: var(--branco);
   margin: 0;
 }
 .contato-email {
+  text-decoration: none;
   font-size: 16px;
   color: var(--branco);
   margin: 0;
 }
 .contato-instagram {
+  text-decoration: none;
   font-size: 16px;
   color: var(--branco);
   margin: 0;
